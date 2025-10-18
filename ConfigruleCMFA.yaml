@@ -33,20 +33,20 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.int.vidio.com
+    server: support.zoom.us
     port: 80
     type: vmess
-    uuid: 8df7a367-ecba-4308-9eec-41742bf0a042
+    uuid: 9b09ce9c-1e73-44f0-9683-b5353babb9b4
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: v2ray3.udpgw.com
+    servername: sg2.ansendant.biz.id
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /vmess
       headers:
-        Host: v2ray3.udpgw.com
+        Host: sg2.ansendant.biz.id
     udp: true
   - name: AKUN2
     server: quiz.int.vidio.com
@@ -167,4 +167,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
