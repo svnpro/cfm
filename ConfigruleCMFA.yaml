@@ -36,17 +36,17 @@ proxies:
     server: quiz.int.vidio.com
     port: 80
     type: vmess
-    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
+    uuid: 8df7a367-ecba-4308-9eec-41742bf0a042
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id2-ray.ipservers.xyz
+    servername: v2ray3.udpgw.com
     network: ws
     ws-opts:
-      path: /JAGOANSSH/
+      path: /worryfree
       headers:
-        Host: id2-ray.ipservers.xyz
+        Host: v2ray3.udpgw.com
     udp: true
   - name: AKUN2
     server: quiz.int.vidio.com
@@ -167,3 +167,4 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
