@@ -36,7 +36,7 @@ proxies:
     server: support.zoom.us
     port: 80
     type: vmess
-    uuid: 9b09ce9c-1e73-44f0-9683-b5353babb9b4
+    uuid: 7fde719c-0b6b-4c75-ad2b-38d4d470051b
     alterId: 0
     cipher: auto
     tls: false
@@ -167,5 +167,6 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
